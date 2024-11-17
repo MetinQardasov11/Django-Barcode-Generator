@@ -1,0 +1,2 @@
+
+# Django Barcode Generator

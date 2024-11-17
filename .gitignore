@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.so
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+db.sqlite3-journal
+
+# Local environment settings
+.env
+
+# Media and static files
+/media/
+!/media/.gitkeep
+/staticfiles/
+!/staticfiles/.gitkeep
+
+# Ignore migrations
+**/migrations/
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Ignore virtual environments
+venv/
+.env/
+env/
+
+# Ignore VS Code settings
+.vscode/
+*.code-workspace
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore IDE settings
+.idea/
+*.swp
+*~
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
